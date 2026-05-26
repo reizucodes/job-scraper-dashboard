@@ -1,0 +1,36 @@
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Python environments and packaging
+.venv/
+venv/
+*.egg-info/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node artifacts
+node_modules/
+dist/
+coverage/
+
+# Logs and env
+*.log
+.env
+.env.*
+
+# OS artifacts
+.DS_Store
+
+# Build / runtime temp
+*.tsbuildinfo
+
+# Generated frontend JS artifacts from TS/Vue sources
+frontend/src/**/*.js
+frontend/tests/**/*.js
